@@ -1,0 +1,15 @@
+{
+  "name": "proverochka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc src/index.ts --outDir output/ && node output/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.36.0",
+    "typescript": "^3.7.5"
+  }
+}
